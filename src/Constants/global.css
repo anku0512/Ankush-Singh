@@ -1,0 +1,8 @@
+.mainHeading {
+    color: #173b6c;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 8px;
+    text-decoration-color: #149ddd;
+    padding-bottom: 0.5em;
+}

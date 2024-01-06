@@ -1,4 +1,4 @@
-import { createTheme } from "@mantine/core";
+import { createTheme, rem } from "@mantine/core";
 
 export const theme = createTheme({
   colorScheme: "light",
@@ -26,6 +26,15 @@ export const theme = createTheme({
       "#000", //color for subheading
     ],
   },
+  skillTextStyle: {
+    order: 3,
+    color: "#173b6c",
+  },
+  // styles: {
+  //   width: rem(30),
+  //   height: rem(30),
+  //   color: theme.colors.text[0],
+  // },
   // globalStyles: (theme) => ({
   //   ".mainHeading": {
   //     color: theme.colors.text[0],

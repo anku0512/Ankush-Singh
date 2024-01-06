@@ -26,14 +26,14 @@ export const theme = createTheme({
       "#000", //color for subheading
     ],
   },
-  globalStyles: (theme) => ({
-    ".mainHeading": {
-      color: theme.colors.text[0],
-      textDecoration: "underline",
-      textDecorationThickness: "5px",
-      textUnderlineOffset: "8px",
-      textDecorationColor: theme.colors.text[2],
-      paddingBottom: "0.5em",
-    },
-  }),
+  // globalStyles: (theme) => ({
+  //   ".mainHeading": {
+  //     color: theme.colors.text[0],
+  //     textDecoration: "underline",
+  //     textDecorationThickness: "5px",
+  //     textUnderlineOffset: "8px",
+  //     textDecorationColor: theme.colors.text[2],
+  //     paddingBottom: "0.5em",
+  //   },
+  // }),
 });

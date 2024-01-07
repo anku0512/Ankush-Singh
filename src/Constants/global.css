@@ -15,4 +15,20 @@
 .skillsText {
     color: #282c34;
     font-size: 1.5em;
+    cursor: pointer;
+}
+.resumeText {
+    color: #282c34;
+    font-size: 1.5em;
+}
+.tool{
+    background: var(--mantine-color-black);
+    text-decoration-color: var(--mantine-color-white);
+    box-shadow: var(--mantine-shadow-md);
+
+}
+.resumeIcon {
+    color: var(--mantine-color-white);
+    height: 1em;
+    width: 1em;
 }

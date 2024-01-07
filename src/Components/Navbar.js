@@ -1,16 +1,28 @@
 import React from "react";
-import { Image, ActionIcon, rem, Group, Container } from "@mantine/core";
+import {
+  Image,
+  ActionIcon,
+  rem,
+  Group,
+  Container,
+  Center,
+  NavLink,
+} from "@mantine/core";
 import Ankush from "../Constants/ankush.jpg";
 import {
   IconBrandLinkedin,
   IconBrandGithub,
-  IconBrandWhatsapp,
   IconMail,
+  IconHome2,
+  IconUser,
+  IconFile,
+  IconLayoutCollage,
+  IconBrandPinterest,
 } from "@tabler/icons-react";
 function Navbar() {
   return (
-    <div className="App">
-      <Container>
+    <div>
+      <Center>
         <Image
           radius="100em"
           h={100}
@@ -19,8 +31,10 @@ function Navbar() {
           src={Ankush}
           alt="photo"
         />
-      </Container>
-      <h1>Ankush Singh</h1>
+      </Center>
+      <Center>
+        <h1>Ankush Singh</h1>
+      </Center>
       <Group justify="center">
         <ActionIcon
           size={42}
@@ -44,7 +58,7 @@ function Navbar() {
           variant="default"
           aria-label="ActionIcon with size as a number"
         >
-          <IconBrandWhatsapp style={{ width: rem(24), height: rem(24) }} />
+          <IconBrandPinterest style={{ width: rem(24), height: rem(24) }} />
         </ActionIcon>
         <ActionIcon
           size={42}
@@ -55,6 +69,33 @@ function Navbar() {
           <IconMail style={{ width: rem(24), height: rem(24) }} />
         </ActionIcon>
       </Group>
+      <div style={{ marginTop: "1em" }}>
+        <NavLink
+          href="#Home"
+          label="Home"
+          leftSection={<IconHome2 size="1rem" stroke={1.5} />}
+        />
+        <NavLink
+          href="#About"
+          label="About"
+          leftSection={<IconUser size="1rem" stroke={1.5} />}
+        />
+        <NavLink
+          href="/Resume"
+          label="Resume"
+          leftSection={<IconFile size="1rem" stroke={1.5} />}
+        />
+        <NavLink
+          href="/Portfolio"
+          label="Portfolio"
+          leftSection={<IconLayoutCollage size="1rem" stroke={1.5} />}
+        />
+        <NavLink
+          href="/Home"
+          label="Contact"
+          leftSection={<IconMail size="1rem" stroke={1.5} />}
+        />
+      </div>
     </div>
   );
 }

@@ -25,6 +25,7 @@ export const theme = createTheme({
       "#149ddd", // this color is used for underline
       "#000", //color for subheading
     ],
+    lightColor: ["#f5f8fd"],
   },
   skillTextStyle: {
     order: 3,

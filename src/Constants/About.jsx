@@ -60,7 +60,15 @@ function About() {
                       <Title order={4} style={{ color: theme.colors.text[3] }}>
                         Email:{" "}
                         <Text span style={{ color: theme.colors.text[1] }}>
-                          anku0512@gmail.com
+                          <a
+                            href="mailto:anku0512@gmail.com"
+                            style={{
+                              textDecoration: "none",
+                              color: theme.colors.text[1],
+                            }}
+                          >
+                            anku0512@gmail.com
+                          </a>
                         </Text>
                       </Title>
                     </List.Item>
@@ -68,7 +76,15 @@ function About() {
                       <Title order={4} style={{ color: theme.colors.text[3] }}>
                         Website:{" "}
                         <Text span style={{ color: theme.colors.text[1] }}>
-                          www.ankush.work
+                          <a
+                            href="https://ankush-singh-ten.vercel.app/"
+                            style={{
+                              textDecoration: "none",
+                              color: theme.colors.text[1],
+                            }}
+                          >
+                            ankush.work
+                          </a>
                         </Text>
                       </Title>
                     </List.Item>

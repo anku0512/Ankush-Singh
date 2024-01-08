@@ -44,22 +44,24 @@ function Skillset() {
   ));
 
   return (
-    <Container
-      size="responsive"
-      style={{
-        marginTop: "2em",
-        backgroundColor: theme.colors.lightColor[0],
-        paddingTop: "2em",
-        paddingBottom: "2em",
-      }}
-    >
-      <Title className={"mainHeading"}>Skills</Title>
-      <Grid style={{ marginTop: "1em" }}>
-        <Grid.Col span="auto">{technicalSkills}</Grid.Col>
-        <Grid.Col span="auto">{frameworkSkills}</Grid.Col>
-        <Grid.Col span="auto">{graphicSkills}</Grid.Col>
-      </Grid>
-    </Container>
+    <div id="skill">
+      <Container
+        size="responsive"
+        style={{
+          marginTop: "2em",
+          backgroundColor: theme.colors.lightColor[0],
+          paddingTop: "2em",
+          paddingBottom: "2em",
+        }}
+      >
+        <Title className={"mainHeading"}>Skills</Title>
+        <Grid style={{ marginTop: "1em" }}>
+          <Grid.Col span="auto">{technicalSkills}</Grid.Col>
+          <Grid.Col span="auto">{frameworkSkills}</Grid.Col>
+          <Grid.Col span="auto">{graphicSkills}</Grid.Col>
+        </Grid>
+      </Container>
+    </div>
   );
 }
 

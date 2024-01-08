@@ -40,11 +40,11 @@ export const skillInfo = [
   {
     id: 2,
     group: "Technical",
-    name: "Node",
+    name: "Node.js",
     icon: <IconBrandNodejs className={"skillsIcon"} />,
     hoverInfo: (
       <ul>
-        <li>Build projects using node</li>
+        <li>Used Node.js to execute JavaScript codes outside of browser</li>
       </ul>
     ),
   },
@@ -55,7 +55,7 @@ export const skillInfo = [
     icon: <IconBrandHtml5 className={"skillsIcon"} />,
     hoverInfo: (
       <ul>
-        <li>Built a lot of websites using html</li>
+        <li>Used HTML to create a custom web application for a client</li>
       </ul>
     ),
   },
@@ -99,21 +99,22 @@ export const skillInfo = [
     icon: <IconBrandMantine className={"skillsIcon"} />,
     hoverInfo: (
       <ul>
-        <li>used mantine on multiple projects</li>
+        <li>used mantine to build this website</li>
+        <li>have been working with mantine at komma</li>
       </ul>
     ),
   },
-  {
-    id: 8,
-    group: "Framework",
-    name: "Bootstrap",
-    icon: <IconBrandBootstrap className={"skillsIcon"} />,
-    hoverInfo: (
-      <ul>
-        <li>used this library to build a website for a client</li>
-      </ul>
-    ),
-  },
+  // {
+  //   id: 8,
+  //   group: "Framework",
+  //   name: "Bootstrap",
+  //   icon: <IconBrandBootstrap className={"skillsIcon"} />,
+  //   hoverInfo: (
+  //     <ul>
+  //       <li>used this library to build a website for a client</li>
+  //     </ul>
+  //   ),
+  // },
   {
     id: 9,
     group: "Graphic",
@@ -135,7 +136,7 @@ export const skillInfo = [
       <ul>
         <li>Great at working with photoshop and illustrator</li>
         <li>Have worked on open source graphic software GIMP</li>
-        <li>Have experience working with canvav</li>
+        <li>Have experience working with canva</li>
       </ul>
     ),
   },
@@ -148,7 +149,7 @@ export const skillInfo = [
       <ul>
         <li>Have experience working on 2d drafting software- Autocad</li>
         <li>Have worked on sketchup to produce 3d designs</li>
-        <li>skilled at rendering softwares like Lumion, V-ray and Enscape</li>
+        <li>skilled at rendering software's like Lumion, V-ray and Enscape</li>
       </ul>
     ),
   },

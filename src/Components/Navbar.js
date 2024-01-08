@@ -19,6 +19,7 @@ import {
   IconLayoutCollage,
   IconBrandPinterest,
 } from "@tabler/icons-react";
+import About from "../Constants/About";
 function Navbar() {
   return (
     <div>
@@ -41,6 +42,7 @@ function Navbar() {
           radius={100}
           variant="default"
           aria-label="ActionIcon with size as a number"
+          onClick={() => window.open("https://github.com/anku0512")}
         >
           <IconBrandGithub style={{ width: rem(24), height: rem(24) }} />
         </ActionIcon>
@@ -49,6 +51,9 @@ function Navbar() {
           radius={100}
           variant="default"
           aria-label="ActionIcon with size as a number"
+          onClick={() =>
+            window.open("https://www.linkedin.com/in/ankush-singh-0512/")
+          }
         >
           <IconBrandLinkedin style={{ width: rem(24), height: rem(24) }} />
         </ActionIcon>
@@ -57,6 +62,7 @@ function Navbar() {
           radius={100}
           variant="default"
           aria-label="ActionIcon with size as a number"
+          onClick={() => window.open("https://in.pinterest.com/anku0512/")}
         >
           <IconBrandPinterest style={{ width: rem(24), height: rem(24) }} />
         </ActionIcon>
@@ -65,36 +71,55 @@ function Navbar() {
           radius={100}
           variant="default"
           aria-label="ActionIcon with size as a number"
+          onClick={() => window.open("mailto:anku0512@gmail.com")}
         >
           <IconMail style={{ width: rem(24), height: rem(24) }} />
         </ActionIcon>
       </Group>
       <div style={{ marginTop: "1em" }}>
-        <NavLink
-          href="#Home"
-          label="Home"
-          leftSection={<IconHome2 size="1rem" stroke={1.5} />}
-        />
-        <NavLink
-          href="#About"
-          label="About"
-          leftSection={<IconUser size="1rem" stroke={1.5} />}
-        />
-        <NavLink
-          href="/Resume"
-          label="Resume"
-          leftSection={<IconFile size="1rem" stroke={1.5} />}
-        />
-        <NavLink
-          href="/Portfolio"
-          label="Portfolio"
-          leftSection={<IconLayoutCollage size="1rem" stroke={1.5} />}
-        />
-        <NavLink
-          href="/Home"
-          label="Contact"
-          leftSection={<IconMail size="1rem" stroke={1.5} />}
-        />
+        <a href="#home" style={{ textDecoration: "none" }}>
+          <NavLink
+            to="/"
+            label="Home"
+            leftSection={<IconHome2 size="1rem" stroke={1.5} />}
+            variant="subtle"
+            active
+          />
+        </a>
+        <a href="#about" style={{ textDecoration: "none" }}>
+          <NavLink
+            to="/about"
+            label="About"
+            leftSection={<IconUser size="1rem" stroke={1.5} />}
+            variant="subtle"
+            active
+          />
+        </a>
+        <a href="#resume" style={{ textDecoration: "none" }}>
+          <NavLink
+            to="/resume"
+            label="Resume"
+            leftSection={<IconFile size="1rem" stroke={1.5} />}
+            variant="subtle"
+            active
+          />
+        </a>
+        <a href="#portfolio" style={{ textDecoration: "none" }}>
+          <NavLink
+            to="/portfolio"
+            label="Portfolio"
+            leftSection={<IconLayoutCollage size="1rem" stroke={1.5} />}
+            variant="subtle"
+            active
+          />
+        </a>
+        {/*<NavLink*/}
+        {/*  href="/Home"*/}
+        {/*  label="Contact"*/}
+        {/*  leftSection={<IconMail size="1rem" stroke={1.5} />}*/}
+        {/*  variant="subtle"*/}
+        {/*  active*/}
+        {/*/>*/}
       </div>
     </div>
   );

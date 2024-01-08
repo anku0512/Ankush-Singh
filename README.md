@@ -14,4 +14,6 @@ I'm always open to collaboration and learning from others.
 
 Let's build something awesome together!
 
-    * Your Portfolio Website: link to portfolio
+    *Portfolio -  https://ankush-singh-ten.vercel.app/
+    *Linkedin - https://www.linkedin.com/in/ankush-singh-0512/
+

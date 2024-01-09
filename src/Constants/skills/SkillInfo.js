@@ -38,17 +38,6 @@ export const skillInfo = [
     ),
   },
   {
-    id: 2,
-    group: "Technical",
-    name: "Node.js",
-    icon: <IconBrandNodejs className={"skillsIcon"} />,
-    hoverInfo: (
-      <ul>
-        <li>Used Node.js to execute JavaScript codes outside of browser</li>
-      </ul>
-    ),
-  },
-  {
     id: 3,
     group: "Technical",
     name: "HTML",

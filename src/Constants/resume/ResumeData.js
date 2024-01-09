@@ -28,6 +28,17 @@ export const ResumeData = [
     ),
   },
   {
+    id: 7,
+    group: "info",
+    title: "JavaScript",
+    icon: <IconUserCode className={"resumeIcon"} />,
+    duration: "2023",
+    organization: "ZTM",
+    location: "",
+    experience: "",
+  },
+
+  {
     id: 1,
     group: "info",
     title: "B.Arch",
@@ -37,6 +48,7 @@ export const ResumeData = [
     location: "Cuttack, Odisha",
     experience: "",
   },
+
   {
     id: 2,
     group: "info",
@@ -135,15 +147,5 @@ export const ResumeData = [
         </li>
       </ul>
     ),
-  },
-  {
-    id: 7,
-    group: "info",
-    title: "JavaScript",
-    icon: <IconUserCode className={"resumeIcon"} />,
-    duration: "2023",
-    organization: "ZTM",
-    location: "",
-    experience: "",
   },
 ];

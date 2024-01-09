@@ -29,6 +29,7 @@ html{
     background: var(--mantine-color-black);
     text-decoration-color: var(--mantine-color-white);
     box-shadow: var(--mantine-shadow-md);
+    padding-right: 2em;
 
 }
 .resumeIcon {

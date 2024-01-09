@@ -18,7 +18,12 @@ function Skillset() {
   const technicalSkills = technical.map((skill) => (
     <List spacing="lg" size="sm" center>
       <List.Item icon={skill.icon}>
-        <Tooltip label={skill.hoverInfo} className={"tool"} position="right">
+        <Tooltip
+          label={skill.hoverInfo}
+          className={"tool"}
+          position="right"
+          style={{ paddingRight: "2em" }}
+        >
           <h2 className={"skillsText"}>{skill.name}</h2>
         </Tooltip>
       </List.Item>
@@ -27,7 +32,12 @@ function Skillset() {
   const frameworkSkills = framework.map((skill) => (
     <List spacing="lg" size="sm" center>
       <List.Item icon={skill.icon}>
-        <Tooltip label={skill.hoverInfo} className={"tool"} position="right">
+        <Tooltip
+          label={skill.hoverInfo}
+          className={"tool"}
+          position="right"
+          style={{ paddingRight: "2em" }}
+        >
           <h2 className={"skillsText"}>{skill.name}</h2>
         </Tooltip>
       </List.Item>
@@ -36,7 +46,12 @@ function Skillset() {
   const graphicSkills = graphic.map((skill) => (
     <List spacing="lg" size="sm" center>
       <List.Item icon={skill.icon}>
-        <Tooltip label={skill.hoverInfo} className={"tool"} position="left">
+        <Tooltip
+          label={skill.hoverInfo}
+          className={"tool"}
+          position="left"
+          style={{ paddingRight: "2em" }}
+        >
           <h2 className={"skillsText"}>{skill.name}</h2>
         </Tooltip>
       </List.Item>

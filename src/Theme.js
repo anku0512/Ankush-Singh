@@ -1,4 +1,5 @@
 import { createTheme, rem } from "@mantine/core";
+import navbar from "./Components/Navbar";
 
 export const theme = createTheme({
   colorScheme: "light",

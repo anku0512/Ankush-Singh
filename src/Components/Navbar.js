@@ -21,6 +21,7 @@ import {
 } from "@tabler/icons-react";
 import About from "../Constants/About";
 import { theme } from "../Theme";
+import "../Constants/global.css";
 function Navbar() {
   return (
     <div>
@@ -83,7 +84,9 @@ function Navbar() {
             to="/"
             label="Home"
             leftSection={<IconHome2 size="1rem" stroke={1.5} />}
-            style={{ color: theme.colors.lightColor[0] }}
+            // color={theme.colors.lightColor[0]}
+            // style={{ color: theme.colors.lightColor[0] }}
+            variant="subtle"
           />
         </a>
         <a href="#about" style={{ textDecoration: "none" }}>
@@ -91,7 +94,8 @@ function Navbar() {
             to="/about"
             label="About"
             leftSection={<IconUser size="1rem" stroke={1.5} />}
-            style={{ color: theme.colors.lightColor[0] }}
+            // style={{ color: theme.colors.lightColor[0] }}
+            variant="subtle"
           />
         </a>
         <a href="#resume" style={{ textDecoration: "none" }}>
@@ -99,7 +103,8 @@ function Navbar() {
             to="/resume"
             label="Resume"
             leftSection={<IconFile size="1rem" stroke={1.5} />}
-            style={{ color: theme.colors.lightColor[0] }}
+            // style={{ color: theme.colors.lightColor[0] }}
+            variant="subtle"
           />
         </a>
         <a href="#portfolio" style={{ textDecoration: "none" }}>
@@ -107,7 +112,7 @@ function Navbar() {
             to="/portfolio"
             label="Portfolio"
             leftSection={<IconLayoutCollage size="1rem" stroke={1.5} />}
-            style={{ color: theme.colors.lightColor[0] }}
+            // style={{ color: theme.colors.lightColor[0] }}
             variant="subtle"
           />
         </a>

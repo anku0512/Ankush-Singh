@@ -123,7 +123,7 @@ export const skillInfo = [
     hoverInfo: (
       <ul>
         <li>Great understanding of design on figma</li>
-        <li>Start any project with ideation on figma</li>
+        <li>Always try to work on the idea on figma</li>
       </ul>
     ),
   },

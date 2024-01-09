@@ -1,13 +1,13 @@
-import Apna from "./apna-health.png";
-import petWow from "./petwow.png";
-import architecture from "./4.jpg";
+import newphoto from "./apna.png";
+import pet from "./pet.png";
+import architect from "./architecture.png";
 export const PortfolioData = [
   {
     id: 0,
     title: "Apna Health",
     category: "Web Development",
     link: "https://www.apnahealth.in/",
-    images: `${Apna}`,
+    images: `${newphoto}`,
     skillsUsed: ["Figma", "JavaScript", "Git"],
     description: (
       <ul>
@@ -43,7 +43,7 @@ export const PortfolioData = [
     title: "petWow",
     category: "App Design",
     link: "https://play.google.com/store/apps/details?id=com.flutterflow.petwow",
-    images: `${petWow}`,
+    images: `${pet}`,
     skillsUsed: [],
     description: (
       <ul>
@@ -51,7 +51,8 @@ export const PortfolioData = [
           Developed and launched petWow, a dog training app available on the
           Google Play Store.
         </li>
-        <li>Designed the app on Figma and then made it using Flutterflow.</li>
+        <li>Designed interface of the app on Figma</li>
+        <li>Made the app using flutterflow</li>
         <li>
           Designed the graphics for the app.
           <a href="https://in.pinterest.com/anku0512/" target="_blank">
@@ -66,8 +67,16 @@ export const PortfolioData = [
     title: "Architectural Work",
     category: "Architecture",
     link: "https://drive.google.com/file/d/1pR1qz_-vhkov95Epc2EyknNA-sqHertL/view?usp=sharing",
-    images: `${architecture}`,
+    images: `${architect}`,
     skillsUsed: [],
-    description: "",
+    description: (
+      <ul>
+        <li>This portfolio contains selected work from 2016 to 2022</li>
+        <li>
+          Software's used to make this portfolio : Autocad, Sketchup, Lumion,
+          Enscape, Photoshop, Illustrator
+        </li>
+      </ul>
+    ),
   },
 ];

@@ -86,7 +86,8 @@ function Navbar() {
             leftSection={<IconHome2 size="1rem" stroke={1.5} />}
             // color={theme.colors.lightColor[0]}
             // style={{ color: theme.colors.lightColor[0] }}
-            variant="subtle"
+            variant="light"
+            className={"navigationBar"}
           />
         </a>
         <a href="#about" style={{ textDecoration: "none" }}>
@@ -96,6 +97,7 @@ function Navbar() {
             leftSection={<IconUser size="1rem" stroke={1.5} />}
             // style={{ color: theme.colors.lightColor[0] }}
             variant="subtle"
+            className={"navigationBar"}
           />
         </a>
         <a href="#resume" style={{ textDecoration: "none" }}>
@@ -105,6 +107,7 @@ function Navbar() {
             leftSection={<IconFile size="1rem" stroke={1.5} />}
             // style={{ color: theme.colors.lightColor[0] }}
             variant="subtle"
+            className={"navigationBar"}
           />
         </a>
         <a href="#portfolio" style={{ textDecoration: "none" }}>
@@ -114,6 +117,7 @@ function Navbar() {
             leftSection={<IconLayoutCollage size="1rem" stroke={1.5} />}
             // style={{ color: theme.colors.lightColor[0] }}
             variant="subtle"
+            className={"navigationBar"}
           />
         </a>
         {/*<NavLink*/}

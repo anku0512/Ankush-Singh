@@ -70,3 +70,9 @@ html{
     color: var(--mantine-color-white);
 }
 
+.navigationBar {
+    color: white !important;
+}
+.navigationBar:hover {
+    color: black !important;
+}

@@ -11,19 +11,11 @@ export const ResumeData = [
     location: "Bengaluru, India",
     experience: (
       <ul>
-        I have experience working as a Founder of two startups, apna health and
-        petWow. At apna health, I transformed the business from an ecommerce
-        website to a franchise service for ayurvedic doctors in India. I handled
-        social media marketing, clinic design, SEO, and website design for
-        clients. Additionally, I developed an app called petWow for dog
-        training. In my current role as a Frontend Developer at komma, I utilize
-        my skills in JavaScript, React, HTML & CSS, Git, and Typescript to
-        create visually appealing and user-friendly design. I have a strong
-        background in design, including experience with Photoshop, Figma,
-        Illustrator, Autodesk and 3d renderng. I hold a B.Arch degree from Piloo
-        Mody College of Architecture. My future goal is to continue building my
-        career as a Frontend Developer, combining my design expertise and web
-        development skills to create innovative and impactful user experiences.
+        I’m a self-taught frontend developer with past experience in running a
+        healthcare startup. I’m an architecture graduate and have briefly worked
+        in ‘building design’ before jumping into the world of software.
+        Overtime, with my experience of designing and creating website for my
+        startup - I’ve developed interest in building software applications .
       </ul>
     ),
   },

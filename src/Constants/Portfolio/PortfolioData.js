@@ -66,7 +66,7 @@ export const PortfolioData = [
     id: 2,
     title: "Architectural Work",
     category: "Architecture",
-    link: "https://drive.google.com/file/d/1pR1qz_-vhkov95Epc2EyknNA-sqHertL/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1cPLd_jKPWbrAi1FfSmYspgbexyjJV2-7/view?usp=drive_link",
     images: `${architect}`,
     skillsUsed: [],
     description: (

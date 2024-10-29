@@ -15,7 +15,7 @@ import { IconChevronRight } from "@tabler/icons-react";
 
 function About() {
   const theme = useMantineTheme();
-
+  // test comment
   return (
     <div id="about">
       <Container size="responsive" style={{ marginTop: "2em" }}>
